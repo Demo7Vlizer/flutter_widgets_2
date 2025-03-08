@@ -83,4 +83,4 @@ class richText extends StatelessWidget {
       ),
     );
   }
-}
+}  

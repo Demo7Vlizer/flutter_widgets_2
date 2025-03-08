@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/flutter_widgets/padding_widgets.dart';
+import 'package:flutter_widgets/flutter_widgets/image.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,8 +33,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: richText(),
-      home: padding_widgets(),
-      
+      // home: padding_widgets(),
+      home: Image_widget(),
     );
   }
 }
